@@ -1,4 +1,5 @@
 from flask import Flask, session, redirect, url_for, render_template, request, jsonify
+print("=== Flask app iniciado ===")
 from datetime import timedelta
 import sys
 import os
