@@ -13,7 +13,7 @@ app.permanent_session_lifetime = timedelta(hours=1)
 
 @app.before_request
 def make_session_permanent():
-    session.permanent = True
+    session.permanent = True    tail app.py
 
 def require_admin():
     perfil = session.get('perfil')
