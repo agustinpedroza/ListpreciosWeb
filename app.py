@@ -239,4 +239,4 @@ if __name__ == '__main__':
         print('✅ Conexión a SQL Server activa.')
     else:
         print('❌ No se pudo conectar a SQL Server.')
-    app.run(debug=True, port=8444, host="192.168.1.69")
+    app.run(debug=False, host="0.0.0.0", port=8000)
